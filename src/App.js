@@ -39,8 +39,6 @@ const App = () => {
     axios.get('https://swapi.dev/api/people')
     .then(res =>{
       setData(res.data);
-     
- 
     }).catch(err => console.error(err))
   },[])
   
@@ -51,9 +49,6 @@ const App = () => {
       <Character data = {data}/>
       </StyledApp>
       </div>
-      
- 
-
   );
 }
 

@@ -16,18 +16,15 @@ border: 3px solid #B4B8AB;
 border-radius:15px;
 margin-bottom: 20px;
 }
-    h4{
-        font-size: 1.5rem;
-        color:white;
-    }
+h4{
+    font-size: 1.5rem;
+    color:white;
+}
 
 `
 const Character = (props) =>{
 
-
-
-    return(
-        
+    return(        
         <div>
             <StyledApp>
             <div>{ props.data.map(char => {
