@@ -12,8 +12,9 @@ width:100%;
 .cont{
 background-color:rgba(40,75,99,0.74);
 margin-top:20px;
-border: 3px solid #F4F9E9;
+border: 3px solid #B4B8AB;
 border-radius:15px;
+margin-bottom: 20px;
 }
     h4{
         font-size: 1.5rem;

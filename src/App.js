@@ -8,15 +8,17 @@ import styled from 'styled-components'
 const StyledApp = styled.div`
 
   background-color: rgba(255,255,255, 0.73);
-  
+  h1{
+    margin-bottom:-10px;
+  }
 
-  width:40%;
-  height:auto;
+  width:50%;
+  height:auto ;
   margin-top:50px;
   border-radius:15px;
   box-shadow: 2px 2px 10px  black;
-
-  @media (max-width: 800px){
+  
+  @media (max-width: 1300px){
     width:90%;
   }
 `
@@ -36,7 +38,6 @@ const App = () => {
   useEffect(() =>{
     axios.get('https://swapi.dev/api/people')
     .then(res =>{
-      console.log(res.data);
       setData(res.data);
      
  
